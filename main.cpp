@@ -46,7 +46,7 @@ double extractNumeric(const string& str) {
 	double number = 0;
 
 	bool decimal = false; // has decimal?
-	double decimalPlace = 0.1;
+	double decimalPlace = 0.1; // where to place digit when decimal is true
 
 	bool negative = false; // turn negative at the end
 	bool hasNumber = false; // must contain number
